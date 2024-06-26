@@ -1,4 +1,4 @@
-package DAY_8;
+package DAY_9;
 
 public class PeakElement {
     public static void main(String[] args) {
