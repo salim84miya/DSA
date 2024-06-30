@@ -21,7 +21,6 @@ public class SetMismatch {
         }
     }
 
-    int[] ans = new int[2];
     for(int j=0; j<nums.length; j++){
         if(nums[j]!=j+1){
             return new int[]{nums[j],j+1};

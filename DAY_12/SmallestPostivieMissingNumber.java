@@ -2,8 +2,6 @@ package DAY_12;
 
 // https://leetcode.com/problems/first-missing-positive/description/
 
-import java.util.Arrays;
-import java.util.*;
 
 public class SmallestPostivieMissingNumber {
     public static void main(String[] args) {

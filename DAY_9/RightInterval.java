@@ -5,23 +5,20 @@ import java.util.Arrays;
 public class RightInterval {
     public static void main(String[] args) {
         
-        int [][] arr = {{3,4},
-                        {2,3},
-                        {1,2}};
-
         int [][] arr2 = {{1,2}};
 
-        int [][] arr3 ={{1,4},{2,3},{3,4}};
+        // int [][] arr = {{3,4},
+        //                 {2,3},
+        //                 {1,2}};
 
-        int [][]arr4 = {{4,5},{2,3},{1,2}};
+        // int [][] arr3 ={{1,4},{2,3},{3,4}};
+
+        // int [][]arr4 = {{4,5},{2,3},{1,2}};
         System.out.println(Arrays.toString(findRightInterval(arr2)));
     }
 
     static int[] findRightInterval(int[][] matrix){
-    //    if(matrix.length==1 || matrix.length==0){
-    //     return new int[]{-1};
-    //    }
-
+   
         int rStart =0;
        int rEnd = matrix.length-1;
 

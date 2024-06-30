@@ -3,8 +3,6 @@ package DAY_12;
 // https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
 
 import java.util.ArrayList;
-import java.util.Arrays;
-
 public class AllMissingNumber {
     public static void main(String[] args) {
         //            0 1 2 3 4 5 6 7
@@ -24,7 +22,7 @@ public class AllMissingNumber {
             }
         }
     
-        ArrayList<Integer> list = new ArrayList();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         
         for(int index=0; index<arr.length; index++){
             if(arr[index]!=index+1){

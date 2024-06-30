@@ -3,7 +3,6 @@ package DAY_12;
 // https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class AllDuplicateNumber {
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class AllDuplicateNumber {
             }
         }
     
-        ArrayList<Integer> list = new ArrayList();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         
         for(int index=0; index<arr.length; index++){
             if(arr[index]!=index+1){
